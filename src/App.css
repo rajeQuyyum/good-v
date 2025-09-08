@@ -1,0 +1,47 @@
+body{
+  background-color: black;
+ 
+}
+/* .zigzag-container 
+{
+  height: 20px;
+  background: white;
+  overflow:  hidden;
+}
+.zigzag{
+  background :repeating-linear-gradient(
+    -10deg,
+    black,
+    white 5px,
+    white 20px
+  
+  
+  
+    
+  
+  );
+  height: 40px;
+  width: 100px;
+  transform: translateY(-10px);
+
+
+
+  
+  
+  
+} */
+ .big{
+   background: linear-gradient(-70deg, purple, gray,rgb(227, 158, 227),aqua);
+ }
+ .big2{
+    background: linear-gradient(-70deg, rgb(123, 144, 123),brown,pink);
+ }
+ .big3{
+    background: linear-gradient(-70deg, rgb(61, 61, 67), navy,rgb(227, 158, 227), gold);
+ }
+
+ .chat_list {
+    height: 75vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
