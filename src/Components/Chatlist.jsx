@@ -7,7 +7,7 @@ const Chatlist = ({chats}) => {
             <div className=' md:w-[150px] w-full '>
                 <img className='rounded-full w-10 h-10' src={avatar} alt="" />
              
-                 <div className='w-[900px]'>
+                 <div className='md:w-[900px] w-full'>
                      <p className='flex gap-3 flex-col pt-5  ml-3 pl-5 px-3 bg-blue-500 rounded-lg'>
                     <strong>{username}</strong>
                     {message}
@@ -22,7 +22,7 @@ const Chatlist = ({chats}) => {
         return (
             <div className='mb-10'>
                 <img className='rounded-full w-10 h-10' src={avatar} alt="" />
-                <p className='flex flex-col gap-3 pl-10 bg-green-500 w-[900px]  rounded-lg'>
+                <p className='flex flex-col gap-3 pl-10 bg-green-500 md:w-[900px] w-full  rounded-lg'>
                     <strong>{username}</strong>
                     {message}
                 </p>

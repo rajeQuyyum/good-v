@@ -45,7 +45,7 @@ const Chap = () => {
     {user ? (
     <div>
         
-        <div className='flex justify-between'>
+        <div className='flex justify-between  md:w-0 w-[370px]'>
             <h1>usernam:{user}</h1>
             <p><FaRocketchat className='text-red-500 text-3xl' />Chat Support</p>
             <p onClick={Logout}>
